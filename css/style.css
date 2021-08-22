@@ -22,8 +22,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
    font-family: 'Poppins', sans-serif;
 }
 
-.body{
+body{
    color: #323232;
+   font-size: 16px;
+   line-height: 27px;
+   letter-spacing: 1.15px;
 }
 
 h1{
@@ -110,9 +113,6 @@ h2{
 
 .main__text p{
    max-width: 467px;
-   font-size: 16px;
-   line-height: 27px;
-   letter-spacing: 1.15px;
    margin-bottom: 42px;
    margin-top: 25px;
 }
@@ -193,9 +193,6 @@ h2{
 }
 
 .slogan__description{
-   font-size: 16px;
-   line-height: 27px;
-   letter-spacing: 1.15px;
    margin: 20px 0 40px 0;
 }
 
@@ -215,9 +212,6 @@ h2{
 
 .promo__text{
    margin-left: 644px;
-   font-style: 16px;
-   line-height: 27px;
-   letter-spacing: 1.15px;
 }
 
 .promo__btn{
@@ -235,4 +229,159 @@ h2{
 
 .promo__btn + .promo__btn span{
    padding-left: 20px;
+}
+
+.serve__text{
+   text-align: center;
+   margin-top: 133px;
+   margin-bottom: 45px;
+}
+
+.serve__title{
+   margin-bottom: 10px;
+}
+
+.serve__subtitle{
+}
+
+.serve__inner{
+   display: flex;
+}
+
+.customer {
+   width: 540px;
+   height: 365px;
+   text-align: center;
+   border-radius: 10px;
+   transition: all 0.8s ease;
+}
+
+.customer__buyers{
+   background: url(/img/buyers_icon.svg) 235px 40px no-repeat;
+}
+
+
+.customer__seller{
+   background: url(/img/seller_icon.svg) 235px 40px no-repeat;
+}
+
+.customer__buyers:hover{
+   background: url(/img/buyers_icon_white.svg) 235px 40px no-repeat;
+}
+
+.customer__seller:hover{
+   background: url(/img/seller_icon_white.svg) 235px 40px no-repeat;
+}
+
+.customer + .customer{
+   margin-left: 30px;
+}
+
+.customer__title {
+   margin-top: 125px;
+}
+
+.customer__subtitle {
+   width: 364px;
+   margin: 1px 88px 25px;
+}
+
+.customer__btn {
+   background-color: #fff;
+   color: #F78434;
+}
+
+.customer:hover{
+   background-color: #F78434;
+   color: #fff;
+}
+
+.prefer {
+   margin-top: 112px;
+   margin-bottom: 171px;
+   text-align: center;
+}
+
+.prefer__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.prefer__item {
+   margin-top: 58px;
+   transition: all 0.8s ease;
+}
+
+.prefer__title {
+   margin-top: 85px;
+   font-size: 28px;
+   letter-spacing: 0.5px;
+   font-weight: bold;
+}
+
+.prefer__subtitle {
+   margin-top: 2px;
+}
+
+.prefer__perfomance{
+background: url(/img/prefer_01.svg) 89px 0 no-repeat;
+}
+
+.prefer__entrepreneurship{
+   background: url(/img/prefer_02.svg) 89px 0 no-repeat;
+}
+
+.prefer__authenticity{
+   background: url(/img/prefer_03.svg) 89px 0 no-repeat;
+}
+
+.prefer__kindness{
+   background: url(/img/prefer_04.svg) 89px 0 no-repeat;
+}
+
+.prefer__perfomance:hover{
+   background: url(/img/prefer_01_hover.svg) 89px 0 no-repeat;
+}
+
+.prefer__entrepreneurship:hover{
+   background: url(/img/prefer_02_hover.svg) 89px 0 no-repeat;
+}
+
+.prefer__authenticity:hover{
+   background: url(/img/prefer_03_hover.svg) 89px 0 no-repeat;
+}
+
+.prefer__kindness:hover{
+   background: url(/img/prefer_04_hover.svg) 89px 0 no-repeat;
+}
+
+.reviews {
+}
+
+.reviews__text {
+   display: flex;
+   justify-content: space-between;
+}
+
+.reviews__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.review__element {
+}
+
+.reviews__item {
+}
+
+.reviews__img {
+}
+
+.reviews__review {
+}
+
+.reviews__name {
+}
+
+.reviews__location {
 }
