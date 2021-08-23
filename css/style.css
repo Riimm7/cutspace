@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 *{
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Poppins', "Arial", sans-serif;
 }
 
 body{
@@ -27,6 +27,7 @@ body{
    font-size: 16px;
    line-height: 27px;
    letter-spacing: 1.15px;
+   margin: 0 10px;
 }
 
 h1{
@@ -58,7 +59,8 @@ h2{
 }
 
 .wrapper{
-   margin: 0 10px;
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .container{
@@ -75,14 +77,6 @@ h2{
 .logo{
    max-width: 168px;
    padding: 35px 0 33px 0;
-}
-
-.logo__img{
-
-}
-
-.menu{
-
 }
 
 .menu__list{
@@ -241,9 +235,6 @@ h2{
    margin-bottom: 10px;
 }
 
-.serve__subtitle{
-}
-
 .serve__inner{
    display: flex;
 }
@@ -356,32 +347,128 @@ background: url(/img/prefer_01.svg) 89px 0 no-repeat;
 }
 
 .reviews {
+   margin-bottom: 39px;
 }
 
-.reviews__text {
+.rev__text {
    display: flex;
    justify-content: space-between;
+   margin-bottom: 58px;
 }
 
-.reviews__inner {
+.rev__inner {
    display: flex;
    justify-content: space-between;
+   position: relative;
 }
 
-.review__element {
+.rev__element {
+   position: absolute;
+   top: -40px;
+   right: -40px;
 }
 
-.reviews__item {
+.rev__item {
+   margin-bottom: 58px;
 }
 
-.reviews__img {
+.rev__img {
+   margin-bottom: 31px;
 }
 
-.reviews__review {
+.rev__review {
+   margin-bottom: 23px;
 }
 
-.reviews__name {
+.rev__name {
+   font-size: 18px;
+   letter-spacing: 0.6px;
+   font-weight: bold;
 }
 
-.reviews__location {
+.rev__location {
+   color: #58BEBF;
+   margin-bottom: 31px;
+}
+
+.rev__item:hover .reviews__location{
+   color: #F78434;
+}
+
+.experience {
+   text-align: center;
+}
+
+.exp {
+   display: flex;
+   background: url(/img/experience_bg.svg) no-repeat;
+}
+
+.exp__text {
+   color: #fff;
+   margin: 156px 174px 0 165px;
+}
+
+.exp__title {
+   margin-bottom: 15px;
+}
+
+.exp__subtitle {
+   margin-bottom: 30px;
+}
+
+.exp__btn {
+   color: #323232;
+   background-color: #fff;
+}
+
+.exp__img{
+   max-width: 547px;
+   position: relative;
+   top: -55px;
+}
+
+.footer__inner{
+   display: flex;
+   margin-bottom: 82px;
+}
+
+.footer__info {
+   margin-right: auto;
+   margin-top: 31px;
+}
+
+.footer__logo{
+   margin-bottom: 18px;
+}
+
+.footer__text {
+   margin-bottom: 40px;
+}
+
+.social {
+   display: flex;
+}
+
+.social__item + .social__item{
+   margin-left: 30px;
+}
+
+.footer__menu-title {
+   font-size: 21px;
+   font-weight: bold;
+   margin-bottom: 18px;
+}
+.footer__menu-item {
+   font-size: 14px;
+   letter-spacing: 0.5px;
+   margin-bottom: 13px;
+}
+
+.footer__menu{
+   margin-top: 41px;
+}
+
+.footer__menu + .footer__menu {
+   margin-left: 85px;
 }
