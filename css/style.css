@@ -97,6 +97,10 @@ h2{
    font-weight: bold;
 }
 
+.main{
+   margin-bottom: 111px;
+}
+
 .main__inner{
    display: flex;
 }
@@ -171,7 +175,7 @@ h2{
 .slogan__inner{
    display: flex;
    justify-content: space-between;
-   margin-bottom: 111px;
+   margin-bottom: 145px;
 }
 
 .slogan__images{
